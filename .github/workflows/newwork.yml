@@ -3,7 +3,7 @@ name : newwork
 
 # runs on a trigger, you have to trigger it 
 on : 
-    push:
+    push: workflow_dispatch: 
         branches : [main]
 
 # these are jobs inside workflow
